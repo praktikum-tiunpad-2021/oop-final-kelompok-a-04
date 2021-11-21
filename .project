@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>oop-final-kelompok-a-04</name>
+	<name>oop-gradle</name>
 	<comment>Project oop-final-kelompok-a-04 created by Buildship.</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1637486921492</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
