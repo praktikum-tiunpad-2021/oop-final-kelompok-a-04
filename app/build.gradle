@@ -26,5 +26,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'oop.final.kelompok.a.App'
+    mainClass = 'oop.gradle.App'
 }
