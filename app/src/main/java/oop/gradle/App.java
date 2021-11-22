@@ -22,8 +22,10 @@ public class App extends Application {
 		button2.setText("Medium");
         Button button3 = new Button();
 		button3.setText("Hard");
+        Button button4 = new Button();
+		button4.setText("Start");
 
-        button1.setOnAction(new EventHandler<ActionEvent>() {
+        button4.setOnAction(new EventHandler<ActionEvent>() {
             @Override
 			public void handle(ActionEvent event) {
 
@@ -53,7 +55,7 @@ public class App extends Application {
     }
     });
     
-    VBox vbox = new VBox(button1, button2,button3);
+    VBox vbox = new VBox(button1, button2,button3,button4);
     Scene scene = new Scene(vbox, 200, 100);
 
 		primaryStage.setTitle("Sudoku");
