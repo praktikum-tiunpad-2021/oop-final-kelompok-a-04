@@ -2,11 +2,11 @@
 | From dd/mm/yyyy to dd/mm/yyyy
 
 ## Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| NPM           | Name                    |
+| ------------- |-------------------------|
+| 140810200043  | Johanes Bagus Prasetyo  |
+| 140810200047  | Kharisma Fitri N.S.     |
+| 140810200065  | Hanifan Ayusti K.       |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
