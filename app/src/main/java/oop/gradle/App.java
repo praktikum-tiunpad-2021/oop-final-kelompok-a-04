@@ -1,6 +1,8 @@
 package oop.gradle;
 
 import javafx.application.Application;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.RadioMenuItem;
 import javafx.css.PseudoClass;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
@@ -12,10 +14,43 @@ import javafx.scene.control.Button;
 import javafx.event.EventHandler;
 import javafx.event.ActionEvent;
 import javafx.scene.layout.VBox;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
 public class App extends Application {
 
     @Override
     public void start(final Stage primaryStage) {
+        MenuBar menuBar = new MenuBar();
+        //menu
+        Menu menu = new Menu("Menu");
+        MenuItem restart = new MenuItem("Restart Game");
+        menu.getItems().add(restart);
+        MenuItem reset = new MenuItem("Reset Game");
+        menu.getItems().add(reset);
+        Menu level = new Menu("Level");
+        RadioMenuItem easy = new RadioMenuItem("Easy");
+        level.getItems().add(easy);
+        RadioMenuItem medium = new RadioMenuItem("Medium");
+        level.getItems().add(medium);
+        RadioMenuItem hard = new RadioMenuItem("Hard");
+        level.getItems().add(hard);
+        ToggleGroup toggleGroup = new ToggleGroup();
+        toggleGroup.getToggles().add(easy);
+        toggleGroup.getToggles().add(medium);
+        toggleGroup.getToggles().add(hard);
+        menu.getItems().add(level);
+        menuBar.getMenus().add(menu);
+        //help
+        Menu helpMenu = new Menu("Help");
+        MenuItem help = new MenuItem("Game Instructions");
+        helpMenu.getItems().add(help);
+        menuBar.getMenus().add(helpMenu);
+
+        //about
+        Menu aboutMenu = new Menu("About");
+        menuBar.getMenus().add(aboutMenu);
+
         Button button1 = new Button();
 		button1.setText("Easy");
         Button button2 = new Button();
@@ -55,8 +90,8 @@ public class App extends Application {
     }
     });
     
-    VBox vbox = new VBox(button1, button2,button3,button4);
-    Scene scene = new Scene(vbox, 200, 100);
+    VBox vbox = new VBox(menuBar,button1, button2,button3,button4);
+    Scene scene = new Scene(vbox, 500, 300);
 
 		primaryStage.setTitle("Sudoku");
 		primaryStage.setScene(scene);
