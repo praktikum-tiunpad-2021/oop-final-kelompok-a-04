@@ -8,11 +8,24 @@ import javafx.scene.control.TextFormatter;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
+import javafx.scene.control.Button;
+import javafx.event.EventHandler;
+import javafx.event.ActionEvent;
+import javafx.scene.layout.VBox;
 public class App extends Application {
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(final Stage primaryStage) {
+        Button button1 = new Button();
+		button1.setText("Easy");
+        Button button2 = new Button();
+		button2.setText("Medium");
+        Button button3 = new Button();
+		button3.setText("Hard");
+
+        button1.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+			public void handle(ActionEvent event) {
 
         GridPane board = new GridPane();
 
@@ -38,6 +51,15 @@ public class App extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+    });
+    
+    VBox vbox = new VBox(button1, button2,button3);
+    Scene scene = new Scene(vbox, 200, 100);
+
+		primaryStage.setTitle("Sudoku");
+		primaryStage.setScene(scene);
+		primaryStage.show();
+}
 
     private TextField createTextField() {
         TextField textField = new TextField();
