@@ -7,33 +7,33 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 public class Board extends JFrame {
 
-public  int jumlahKotak = 9;
-public Grid [] kotak = new Grid[jumlahKotak];
+    private  int jumlahKotak = 9;
+    private Grid [] kotak = new Grid[jumlahKotak];
 
-public  Board(){
+    public  Board(){
 
-    super("Sudoku");
-    setSize(700,700);
-    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        super("Sudoku");
+        setSize(700,700);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
-    JPanel panel = new JPanel(new GridLayout(3,3));
-    for(int i=0; i<jumlahKotak; i++){
-        kotak[i] = new Grid();
-        panel.add(kotak[i]);
+        JPanel panel = new JPanel(new GridLayout(3,3));
+        for(int i=0; i<jumlahKotak; i++){
+            kotak[i] = new Grid();
+            panel.add(kotak[i]);
+        }
+        add(panel, BorderLayout.CENTER);
+        setVisible(true);
+        setLocationRelativeTo(null);
     }
-    add(panel, BorderLayout.CENTER);
-    setVisible(true);
-    setLocationRelativeTo(null);
-}
 
-public class exitaction implements ActionListener{
-    public void actionPerformed (ActionEvent e){
-        System.exit(0);
+    public class exitaction implements ActionListener{
+        public void actionPerformed (ActionEvent e){
+            System.exit(0);
+        }
     }
-}
 
-public static void main(String[] args) { 
-    Board board = new Board();
-}    
+    public static void main(String[] args) { 
+        Board board = new Board();
+    }    
 }
