@@ -8,6 +8,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
+import javax.swing.SwingUtilities;
 import javax.swing.border.BevelBorder;
 import javax.swing.*;
 import java.awt.BorderLayout;
@@ -22,11 +23,10 @@ import java.util.Random;
 
 public class Sudoku extends JFrame{
     //Deklarasi atribut
-    private static int grid = Puzzle.getGrid();;
+    private static int grid = Puzzle.getGrid();
     private static int subgrid = Puzzle.getSubgrid();
-    private static int lebar= grid * 60;;
+    private static int lebar= grid * 60;
     private static int tinggi = grid * 60;
-    private static int level;
     private static Color color_blank;
     private static Color color_fill; 
 	private static Color color_number; 
@@ -173,7 +173,6 @@ public class Sudoku extends JFrame{
         pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setTitle("Sudoku Game");
-        setLevel(level);
     }
 
     private void aboutActionPerformed(){
@@ -205,29 +204,36 @@ public class Sudoku extends JFrame{
 
     private void restartActionPerformed(){
         dispose();
-        setLevel(1);
-        new Sudoku();
+        setLevel("easy");
+        new Sudoku().setVisible(true);
     }
 
     private void exitActionPerformed() {
         System.exit(0); //exit
     }
     
-    private static void setLevel (int level) {
+    private static void setLevel (String level) {
+        switch (level) {
+            case "easy":
+                NumSisa = 5 * 9;
+                break;
+            case "medium":
+                NumSisa = 7 * 9;
+                break;
+            case "hard":
+                NumSisa = 8 * 9;
+                break;
+            default:
+                NumSisa = 5 * 9;
+                break;
+        }
+        
         for (int row = 0; row < grid; ++row) {
             for (int col = 0; col < grid; ++col){
                 game[row][col] = false;
                 restart[row][col] = false;
             }
         }
-        if(level == 1){
-            NumSisa = 5 * 9;
-        } else if(level == 2){
-            NumSisa = 7 * 9;
-        } else {
-            NumSisa = 8 * 9;
-        }
-        
         Random random = new Random();
         int randomRow = -1;
         int randomCol = -1;
@@ -243,6 +249,7 @@ public class Sudoku extends JFrame{
             }
         }
     }
+
     private void initGame(JPanel Board) {
         InputListener listener = new InputListener();
         for (int row = 0; row < grid; ++row) {
@@ -276,37 +283,39 @@ public class Sudoku extends JFrame{
             }
         }
     }
+
     private class LevelListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             switch (e.getActionCommand()) {
             case "Easy":
                 JOptionPane.showMessageDialog(null, "Easy");
-                setLevel (1);
+                setLevel("easy");
                 dispose();
                 new Sudoku().setVisible(true);
                 break;
             case "Medium":
                 JOptionPane.showMessageDialog(null, "Medium");
-                setLevel (2);
+                setLevel("medium");
                 dispose();
                 new Sudoku().setVisible(true);
                 break;
             case "Hard":
                 JOptionPane.showMessageDialog(null, "Hard");
-                setLevel (3);
+                setLevel("hard");
                 dispose();
                 new Sudoku().setVisible(true);
                 break;
             default:
                 JOptionPane.showMessageDialog(null, "Easy");
-                setLevel (1);
+                setLevel ("easy");
                 dispose();
                 new Sudoku().setVisible(true);
                 break;
             }
         }
     }
+    
     private class InputListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -330,19 +339,19 @@ public static void main(String[] args) {
         public void run() {
             if(args.length < 1 || args[0].contains("easy")) {
                 JOptionPane.showMessageDialog(null, "Easy");
-                setLevel (1);
+                setLevel("easy");
             }
 
             else if(args[0].contains("medium")) {
                 JOptionPane.showMessageDialog(null, "Medium");
-                setLevel (2);
+                setLevel("medium");
             }
 
             else if(args[0].contains("hard")) {
                 JOptionPane.showMessageDialog(null, "Hard");
-                setLevel (3);
+                setLevel("hard");
             }
-            new Sudoku().setVisible(true);;
+            new Sudoku().setVisible(true);
         }
     });
 }
