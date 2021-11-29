@@ -22,11 +22,11 @@
 | 3.3 | Membuat menu bar | Kharisma | DONE |
 
 ## Retrospective 
-
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+sprint kemarin belum menerapkan oop, sehingga perlu diperbaiki
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 4.4 | Set angka tetap (read-only) | Bagus|
+| 5.5 | Membuat level kesulitan | Kharisma |
+| 6.6 | Membuat reset dan restart  | Hanifan |

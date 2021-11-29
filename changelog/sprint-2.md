@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 2)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 23/11/2021 to 29/11/2021
 
 ## Team (Insert your name)
 | NPM           | Name                    |
@@ -20,12 +20,13 @@
 | 4.4 | Set angka tetap (read-only) | Bagus|| DONE | 
 | 5.5 | Membuat level kesulitan |Kharisma || DONE | 
 | 6.6 | Membuat reset dan restart  | Hanifan || DONE | 
-## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+## Retrospective 
+-
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| 7.7 | cek input | - |
+| 8.8 | Highlight grid yang bernilai sama  | - |
+| 9.9 | Pengecekan akhir| - |

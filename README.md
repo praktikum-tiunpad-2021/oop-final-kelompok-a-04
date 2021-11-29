@@ -15,20 +15,30 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
+   - Membuat Grid 9x9 dan subgrid 3x3
+   - Membuat interface menu awal (tombol level dan start)
+   - Membuat menu bar
+   - Set angka tetap
+   - Membuat level kesulitan
+   - Membuat reset dan restart
+   - cek input
+   - Highlight grid yang bernilai sama
+   - Pengecekan akhir
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+   - Membuat Grid 9x9 dan subgrid 3x3
+   - Membuat interface menu awal (tombol level dan start)
+   - Membuat menu bar
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+   - Set angka tetap
+   - Membuat level kesulitan
+   - Membuat reset dan restart
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+   - cek input
+   - Highlight grid yang bernilai sama
+   - Pengecekan akhir
 
 ## Running The App
 
