@@ -79,9 +79,9 @@ public class Sudoku extends JFrame{
     }
 
     public void initComponents(){
-        color_blank = Color.WHITE; 
-        color_fill = new Color(240, 240, 240); 
-        color_number = Color.BLACK; 
+        color_blank = new Color(255, 248, 220); 
+        color_fill = new Color(255, 228, 181); 
+        color_number = new Color(139, 71, 38); 
         font_number = new Font("Arial", Font.BOLD, 20);
         display = new JTextField[grid][grid];
         sudokupuzzle = Puzzle.getPuzzle();
