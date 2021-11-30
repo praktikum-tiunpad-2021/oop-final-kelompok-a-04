@@ -215,7 +215,7 @@ public class Sudoku extends JFrame{
     private static void setLevel (String level) {
         switch (level) {
             case "easy":
-                NumSisa = 4*9;
+                NumSisa = 5 * 9;
                 break;
             case "medium":
                 NumSisa = 7 * 9;
@@ -224,7 +224,7 @@ public class Sudoku extends JFrame{
                 NumSisa = 8 * 9;
                 break;
             default:
-                NumSisa = 4 * 9;
+                NumSisa = 5 * 9;
                 break;
         }
         
