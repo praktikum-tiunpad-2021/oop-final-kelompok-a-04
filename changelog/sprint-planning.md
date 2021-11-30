@@ -12,14 +12,14 @@
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 1.1 | Membuat Grid 9x9 dan subgrid(3x3) | Bagus | 
-| 2.2 | Membuat interface menu awal (tombol level dan start) | Bagus & Hanifan | 
-| 3.3 | Membuat menu bar | Kharisma |
-| 4.4 | Set angka tetap (read-only) | Bagus|
-| 5.5 | Membuat level kesulitan | Kharisma |
-| 6.6 | Membuat reset dan restart  | Hanifan |
-| 7.7 | cek input | - |
-| 8.8 | Highlight grid yang bernilai sama  | - |
-| 9.9 | Pengecekan akhir| - |
+| 1.2 | Membuat interface menu awal (tombol level dan start) | Bagus & Hanifan | 
+| 1.3 | Membuat menu bar | Kharisma |
+| 2.1 | Set angka tetap (read-only) | Bagus|
+| 2.2 | Membuat level kesulitan | Kharisma |
+| 2.3 | Membuat reset dan restart  | Hanifan |
+| 3.1 | cek input | - |
+| 3.2 | Highlight grid yang bernilai sama  | - |
+| 3.3 | Pengecekan akhir| - |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
