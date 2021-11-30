@@ -17,9 +17,9 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 4.4 | Set angka tetap (read-only) | Bagus| DONE | 
-| 5.5 | Membuat level kesulitan |Kharisma | DONE | 
-| 6.6 | Membuat reset dan restart  | Hanifan | DONE | 
+| 2.1 | Set angka tetap (read-only) | Bagus| DONE | 
+| 2.2 | Membuat level kesulitan |Kharisma | DONE | 
+| 2.3 | Membuat reset dan restart  | Hanifan | DONE | 
 
 ## Retrospective 
 -
@@ -27,6 +27,6 @@
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 7.7 | cek input | - |
-| 8.8 | Highlight grid yang bernilai sama  | - |
-| 9.9 | Pengecekan akhir| - |
+| 3.1 | cek input | - |
+| 3.2 | Highlight grid yang bernilai sama  | - |
+| 3.3 | Pengecekan akhir| - |
