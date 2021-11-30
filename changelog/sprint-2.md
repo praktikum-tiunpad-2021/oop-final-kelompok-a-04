@@ -17,9 +17,9 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 4.4 | Set angka tetap (read-only) | Bagus|| DONE | 
-| 5.5 | Membuat level kesulitan |Kharisma || DONE | 
-| 6.6 | Membuat reset dan restart  | Hanifan || DONE | 
+| 4.4 | Set angka tetap (read-only) | Bagus| DONE | 
+| 5.5 | Membuat level kesulitan |Kharisma | DONE | 
+| 6.6 | Membuat reset dan restart  | Hanifan | DONE | 
 
 ## Retrospective 
 -
