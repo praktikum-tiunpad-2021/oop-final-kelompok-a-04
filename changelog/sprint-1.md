@@ -18,8 +18,8 @@
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
 | 1.1 | Membuat Grid 9x9 dan subgrid(3x3) | Bagus | DONE | 
-| 2.2 | Membuat interface menu awal (tombol level dan start) | Bagus & Hanifan | DONE |
-| 3.3 | Membuat menu bar | Kharisma | DONE |
+| 1.2 | Membuat interface menu awal (tombol level dan start) | Bagus & Hanifan | DONE |
+| 1.3 | Membuat menu bar | Kharisma | DONE |
 
 ## Retrospective 
 sprint kemarin belum menerapkan oop, sehingga perlu diperbaiki
@@ -27,6 +27,6 @@ sprint kemarin belum menerapkan oop, sehingga perlu diperbaiki
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 4.4 | Set angka tetap (read-only) | Bagus|
-| 5.5 | Membuat level kesulitan | Kharisma |
-| 6.6 | Membuat reset dan restart  | Hanifan |
+| 2.1 | Set angka tetap (read-only) | Bagus|
+| 2.2 | Membuat level kesulitan | Kharisma |
+| 2.3 | Membuat reset dan restart  | Hanifan |
