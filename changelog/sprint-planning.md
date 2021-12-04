@@ -28,5 +28,21 @@
 | 2.2 | Membuat interface menu awal (tombol level dan start) | Bagus & Hanifan | 
 | 3.3 | Membuat menu bar | Kharisma |
 
+## Sprint  Backlog Plan(Sprint 2)
+
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 2.1 | Set angka tetap (read-only) | Bagus| 
+| 2.2 | Membuat level kesulitan |Kharisma |
+| 2.3 | Membuat reset dan restart  | Hanifan | 
+
+## Sprint  Backlog Plan(Sprint 3)
+| ID  | Title/Desc | Asignee |
+| --- | ---------- | ------- | 
+| 3.1 | cek input | - |
+| 3.2 | Highlight grid yang bernilai sama  | - | 
+| 3.3 | Pengecekan akhir| - | 
+
+
 ## Retrospective 
 -

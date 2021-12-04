@@ -42,11 +42,71 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+File utama `Sudoku.java` 
+
+1. *Compile* seluruh file java dalam folder `src` menggunakan perintah :
+
+``` 
+ javac Sudoku.java 
+ ``` 
+
+2. Jalankan file utama `Sudoku.java` dengan perintah :
+
+ ``` 
+ java Sudoku easy (Level Easy)
+ java Sudoku /java Sudoku medium(Level Medium)
+ java Sudoku hard (Level Hard)
+ ``` 
+
+3. Tombol keyboard yang digunakan pada aplikasi :
+   - Gunakan tombol `1-9` untuk mengisi kolom pada Sudoku
+
 
 ## Classes Used
 
-TO;DO
+1. **Sudoku (program utama)** -
+`Sudoku.java` 
+   - Program utama yang berisi method main.
+   - Arguments (3 arg)
+      - **3 arg (args)** - args  digunakan untuk menentukan Level(easy,medium,hard).
+   - 0 Class Variable
+   - 1 Method
+      - **main()** - Method main yang menginvoke mainUI sebagai GameInterface.
+2. **Grid** - 
+`Grid.java` 
+- Objek yang mengatur Grid Sudoku.
+   - Arguments (0 arg)
+   - 2 Class Variable
+      - **@jumlahcell** - jumlah cell sudoku.
+      - **@grid** - Membuat grid sudoku.
+   - 1 Method
+    - **Grid()** - set layout,border,dan grid.
+ 3. **Board** -
+`Board.java`
+   - Object frame sebagai container board sudoku.
+   - Arguments (1 arg)
+   - 2 Class Variable
+      - **@jumlahkotak** - jumlah kotak pada sudoku.
+      - **@kotak** - kotak yang digunakan pada sudoku. 
+   - 1 Method
+      - **exitaction()** - method exit
+ 4. **Puzzle** -
+`Puzzle.java`
+- Object frame sebagai isi puzzle.
+   - Arguments (0 arg)
+   - 4 Class Variable
+      - **@grid** - jumlah grid pada sudoku.
+      - **@subgrid** - jumlah subgrid pada sudoku.
+      - **@random** - random  pada sudoku.
+      - **@puzzle** -puzzle digunakan pada sudoku.    
+   - 4 Method
+      - **generateSudoku()** -generate puzzle sudoku.
+      - **getPuzzle()** - melakukan generateSudoku()
+      - **getGrid()** - mengambil grid
+      - **getSubgrid()** - mengambil subgrid
+
+
+
 
 UML image here
 

@@ -17,8 +17,9 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| 3.1 | cek input | - | - |
+| 3.2 | Highlight grid yang bernilai sama  | - | - |
+| 3.3 | Pengecekan akhir| - | - |
 
 ## Retrospective 
 
