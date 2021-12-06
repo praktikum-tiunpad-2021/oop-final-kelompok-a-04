@@ -72,7 +72,37 @@ File utama `Sudoku.java`
    - 0 Class Variable
    - 1 Method
       - **main()** - Method main yang menginvoke mainUI sebagai GameInterface.
-2. **Grid** - 
+2. **Game ()** -
+`Game.java` 
+   - Program  yang berisi interface Sudoku.
+   - Arguments (0 arg)
+   - 12 Class Variable
+      - **@grid** - Membuat grid sudoku.
+      - **@subgrid** - jumlah subgrid sudoku.
+       - **@lebar** - set lebar sudoku.
+      - **@tinggi** - set tinggi sudoku.
+       - **@numsisa** - numsisa sudoku.
+      - **@sudokupuzzle** - jumlah subgrid sudoku.
+       - **@restart** -kondisi restart.
+      - **@game** - kondisi awal permainan.
+      - **@contentp** -container sudoku.
+      - **@board** - board sudoku .
+      - **@panel** - panel  sudoku.
+      - **@menu** - menubar sudoku.
+   - 12 Method
+      **initcomponents()** -inisalisasi component
+      **aboutactionperformed()** -action untuk menu about
+      **helpactionperformed()** -action untuk menu help
+      **resetactionperformed()** -action untuk menu reset
+      **restartactionperformed()** -action untuk menu restart
+      **exitactionperformed()** -action untuk menu exit
+      **setLevel()** -set kesulitan
+      **initgame()** -inisialisi game
+      **levelListener()** -listener untuk level
+      **ActionPerformed()** -pemilihan level
+      **InputListener()** -listener input angka
+      **ActionPerformed()** -action listener input
+3. **Grid** - 
 `Grid.java` 
 - Objek yang mengatur Grid Sudoku.
    - Arguments (0 arg)
@@ -81,7 +111,7 @@ File utama `Sudoku.java`
       - **@grid** - Membuat grid sudoku.
    - 1 Method
     - **Grid()** - set layout,border,dan grid.
- 3. **Board** -
+ 4. **Board** -
 `Board.java`
    - Object frame sebagai container board sudoku.
    - Arguments (1 arg)
@@ -90,7 +120,7 @@ File utama `Sudoku.java`
       - **@kotak** - kotak yang digunakan pada sudoku. 
    - 1 Method
       - **exitaction()** - method exit
- 4. **Puzzle** -
+ 5. **Puzzle** -
 `Puzzle.java`
 - Object frame sebagai isi puzzle.
    - Arguments (0 arg)
