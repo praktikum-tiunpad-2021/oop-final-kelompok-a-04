@@ -139,6 +139,7 @@ File utama `Sudoku.java`
 
 
 UML image here
+<img src="UML.png" width="480" height="360">
 
 ## Notable Assumption and Design App Details
 
