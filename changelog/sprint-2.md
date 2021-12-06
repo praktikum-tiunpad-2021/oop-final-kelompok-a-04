@@ -27,6 +27,6 @@
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | cek input | - |
-| 3.2 | Highlight grid yang bernilai sama  | - |
-| 3.3 | Pengecekan akhir| - |
+| 3.1 | cek input | Bagus |
+| 3.2 | Highlight grid yang bernilai sama  | Kharisma |
+| 3.3 | Pengecekan akhir| Hanifan |

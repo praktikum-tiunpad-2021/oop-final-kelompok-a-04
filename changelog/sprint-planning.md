@@ -1,5 +1,5 @@
 # Sprint Planning 
-| dd/mm/yyyy
+| From 16/11/2021 to 06/12/2021
 
 ### Team (Insert your name)
 | NPM           | Name                    |
@@ -17,9 +17,9 @@
 | 2.1 | Set angka tetap (read-only) | Bagus|
 | 2.2 | Membuat level kesulitan | Kharisma |
 | 2.3 | Membuat reset dan restart  | Hanifan |
-| 3.1 | cek input | - |
-| 3.2 | Highlight grid yang bernilai sama  | - |
-| 3.3 | Pengecekan akhir| - |
+| 3.1 | cek input | Bagus |
+| 3.2 | Highlight grid yang bernilai sama  | Kharisma |
+| 3.3 | Pengecekan akhir| Hanifan |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
