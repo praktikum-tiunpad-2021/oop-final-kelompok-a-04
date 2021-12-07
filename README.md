@@ -53,8 +53,8 @@ File utama `Sudoku.java`
 2. Jalankan file utama `Sudoku.java` dengan perintah :
 
  ``` 
- java Sudoku easy (Level Easy)
- java Sudoku /java Sudoku medium(Level Medium)
+ java Sudoku easy/java Sudoku (Level Easy)
+ java Sudoku medium(Level Medium)
  java Sudoku hard (Level Hard)
  ``` 
 
