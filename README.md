@@ -142,4 +142,14 @@ File utama `Sudoku.java`
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+- Grid ubin dengan besar 9 x 9 yang terdiri dari 3 x 3 sub-grids dimana ubin adalah komponen drawing board dengan ukuran 540x540 
+- - Navbar berisi Menu, Help, dan About    
+- - Menu berisi tombol untuk Restart Game (mengacak ulang grid), Difficulty Level (Easy, Medium, Hard), Reset Game (menghapus input yang sudah ada), dan Exit (keluar dari Game)    
+-  - Help berisi tombol Game Instructions untuk menampilkan cara bermain pada sudoku ini    
+-  - About berisi tombol Sudoku Game untuk menampilkan penjelasan singkat tentang Sudoku Game 
+- - Subgrid yang sudah berisi angka memiliki warna Moccasin 
+- - Subgrid yang belum berisi angka memiliki warna Cornsilk 
+- - Acak angka di dalam ubin (tidak ada angka yang sama pada 1 baris, 1 kolom, dan 1 sub-grids). 
+- - Masking terhadap ubin tertentu (angka disembunyikan dan dijadikan text field) 
+- - Ubin yang tidak dimasking bersifat read-only (angka didalamnya tidak bisa diubah) 
+- - Setiap angka yang didahului oleh angka yang lebih besar dianggap sebagai inversi, jumlah inver
